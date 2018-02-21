@@ -495,4 +495,16 @@
             </reporting>
         </profile>
     </profiles>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://172.16.103.204:8080/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <!-- CHANGE HERE by your team nexus server -->
+    <url>http://172.16.103.204:8080/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
